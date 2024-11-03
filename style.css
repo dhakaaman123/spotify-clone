@@ -6,6 +6,8 @@
 }
 body{
     background-color: wheat;
+    height: 100%;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -127,7 +129,7 @@ nav ul li:hover{
 }
 .songItem {
     /* margin-top: 25px; */
-    height: 50px;
+    height: 45px;
     display: flex;
     background-color: white;
     width: 50%;
