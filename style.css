@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: antiquewhite;
+    background-color: wheat;
 }
 nav{
     display: flex;
@@ -59,10 +59,7 @@ nav ul li:hover{
     /* border-radius:15px; */
   
     border-radius: 5px;
-    align-items: center;
-  
-    
-
+    align-items: center; 
 
     
 }
@@ -157,6 +154,6 @@ nav ul li:hover{
 .songInfo img{
     margin-right: 10px;
     opacity: 0;
-    transform: opacity 1s ease-in-out;
+    transform: opacity 0.4 ease-in-out;
 }
 
