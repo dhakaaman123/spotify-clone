@@ -1,5 +1,4 @@
 console.log("welcome to Spotify");
-
 // Initialize the variables 
 let songIndex = 0; // Start from 0
 let audioElement = new Audio('songs/1.mp3');
@@ -10,16 +9,16 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 
 let songs = [
-    {songName: "Salam-e-Ishq", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "teri kasam", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"}
+    {songName: "Kabootri_ofF...", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Jale2_official.", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "AMIT_SAINI_RH..", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "KALE_KAGAJ.....", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "BADLI-BADLI....", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "THAR-HOOKA.....", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "_KALLO-........", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "BHYANI_KI_TAHS.", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "GUNDE_CHACHA...", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "HERO_HONDA.....", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"}
 ];
 
 masterPlay.addEventListener("click", () => {
@@ -127,8 +126,6 @@ document.getElementById('next').addEventListener('click',()=>{
     masterPlay.classList.add(`fa-circle-pause`);
     updatePlayState(true);
 
-
-
 });
 document.getElementById('previous').addEventListener('click',()=>{
     if(songIndex <= 0){
@@ -143,8 +140,5 @@ document.getElementById('previous').addEventListener('click',()=>{
     masterPlay.classList.remove(`fa-circle-play`);
     masterPlay.classList.add(`fa-circle-pause`);
     updatePlayState(true);
-
-
-
 });
 
